@@ -1,13 +1,17 @@
-const Celulares = ['xiaomi', 'samsung', 'iphone', 'huawei']
+// Definición del array 'Celulares' que contiene nombres de marcas de teléfonos celulares
+const Celulares = ['xiaomi', 'samsung', 'iphone', 'huawei'];
 
-console.log(Celulares)
+// Imprimir el array 'Celulares' en la consola
+console.log(Celulares);
 
-// const resultado = Celulares.filter((Celulares) => Celulares.length > 6)
-
-function Operacion (x){
-  return x , Celulares.length  > 3
+// Definición de la función 'Operacion' que será utilizada como criterio de filtrado para el array
+function Operacion(x) {
+  // Retorna true si la longitud del array 'Celulares' es mayor que 3, de lo contrario, retorna false
+  return x, Celulares.length > 3;
 }
 
-let Resultado = Celulares.filter(Operacion)
+// Filtrar los elementos del array 'Celulares' utilizando la función 'Operacion' como criterio de filtrado
+let Resultado = Celulares.filter(Operacion);
 
-console.table(Resultado)
+// Imprimir el resultado del filtro en forma de tabla en la consola
+console.table(Resultado);
