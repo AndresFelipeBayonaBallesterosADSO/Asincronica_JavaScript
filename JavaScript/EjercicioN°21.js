@@ -16,7 +16,7 @@ const promise2 = new Promise((resolve, reject) => {
 const promise3 = new Promise((resolve, reject) => {
   // Esta promesa se resuelve después de 4 segundos
   setTimeout(() => {
-    resolve('Promesa 3 resuelta');
+    resolve('Promesa 3 resuelta')
   }, 4000)
 })
 
@@ -30,5 +30,5 @@ Promise.allSettled([promise1, promise2, promise3])
       } else if (resultado.status === 'rejected') {
         console.log('Promesa rechazada:', resultado.reason);
       }
-    });
-  });
+    })
+  })
