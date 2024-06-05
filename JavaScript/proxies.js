@@ -46,7 +46,7 @@
 
 
 
-// LEER JSON
-fetch('datos.json')
-  .then(response => response.json())
-  .then(data => )
+// // LEER JSON
+// fetch('datos.json')
+//   .then(response => response.json())
+//   .then(data => )
